@@ -55,7 +55,8 @@ I found the p-value to be 0.000116. This value is small enough to show that ther
 plot(TukeyHSD(model1))
 ```
 
-Looking at the 95% confidence interval one can see if there is a significant statistical difference between each group. Since the Middle-Back and Front back intervals do not lie on 0 they are statistically different. The Middle-Front does lie on zero, which means there is not a statistical difference. 
+Looking at the 95% confidence interval one can see if there is a significant statistical difference between each group. Since the Middle-Back and Front-back intervals do not lie on 0 they are statistically different. The Middle-Front does lie on zero, which means there is not a statistical difference. 
 
-## Conclusions
+##Conclusions 
 
+I learned that while having only two categories of data is similar to multiple categories, there are additional steps that must be taken for the latter. It started the same with plotting the data using box plots, as well as finding the standard deviation and the mean. After that I found the the p-value and found it to be small enough to be significant. This is where I took the additional steps to use "one way anova" to compare the categories against each other. This showed me a 95% confidence interval that showed the Middle-Back and Front-Back were significantly different while the Middle-Front was not significantly different due to having 0 as part of the interval.
