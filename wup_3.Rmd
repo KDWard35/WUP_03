@@ -44,6 +44,13 @@ favstats(alcohol~Seat,data=ucdavis1)
 More people sit in the middle than in the front and back combined. There are slightly more people in the front than in the back. The mean of the amount of alcohol consumed by each group is as follows: The back leading strongly with 8.555556, the middle with 6.225381, and the front with the least, being 1.787500.
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+I found the p-value to be 0.000116. This value is small enough to show that there may be a significant statistical difference.
+
 ## Conclusions
 
 
