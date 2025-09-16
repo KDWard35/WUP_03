@@ -51,6 +51,11 @@ summary.aov(model1)
 
 I found the p-value to be 0.000116. This value is small enough to show that there may be a significant statistical difference.
 
-## Conclusions
+```{r}
+plot(TukeyHSD(model1))
+```
 
+Looking at the 95% confidence interval one can see if there is a significant statistical difference between each group. Since the Middle-Back and Front back intervals do not lie on 0 they are statistically different. The Middle-Front does lie on zero, which means there is not a statistical difference. 
+
+## Conclusions
 
